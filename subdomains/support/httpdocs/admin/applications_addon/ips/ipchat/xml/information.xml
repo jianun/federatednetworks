@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+	<data>
+		<name>IP.Chat</name>
+		<public_name>Chat</public_name>
+		<author>Invision Power Services, Inc.</author>
+		<description></description>
+		<ipskey>58d95fd52871c2d762521a593ece1f5e</ipskey>
+		<disabledatinstall>0</disabledatinstall>
+		<templategroups>
+			<template match="contains">skin_ipchat</template>
+		</templategroups>
+	</data>
+</information>

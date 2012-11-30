@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Pragma" content="no-cache" />
+	</head>
+	<body id="parentBody"></body>
+    <script type='text/javascript'>
+    	var localLastMessage	= '';
+    	
+    	function localForwardMessage( data )
+    	{
+    		var message = data ? data : document.location.hash;
+
+			if (message.length > 0)
+			{
+				message = message.substr(1);
+				top.ipb.chat.handleMessageFromChild(message);
+			}
+		}
+		
+		function checkLocalLocation()
+		{
+			var message = document.location.hash;
+
+			if( message != localLastMessage )
+			{
+				localLastMessage	= message;
+
+				localForwardMessage();
+			}
+			
+			setTimeout( "checkLocalLocation()", 500 );
+		}
+		
+		setTimeout( "checkLocalLocation()", 500 );
+			
+		//Event.observe( window, 'resize', forwardMessage );
+	</script>
+</html>

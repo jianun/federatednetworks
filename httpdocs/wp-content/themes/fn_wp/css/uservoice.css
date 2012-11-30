@@ -1,0 +1,178 @@
+body{
+	color:#ccc;
+	font: 12px/1.5em "Droid Sans",Arial,Helvetica,sans-serif;
+	background:#3B3E43;
+}
+a{color:#f60;}
+a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.uvRow{
+	width:960px;
+}
+.uvBody{
+	background:none;
+	border:none;
+	padding:0;
+	color:#ccc;
+}
+.uvIdeaVoteCount{
+	background:#282A2D;
+	border:none;
+	color:#999;
+	font-weight:bold;
+}
+.uvIdeaVoteCount strong{
+	font-size:22px;
+	color:#999;
+	margin-bottom:10px;
+}
+.uvIdeaVoteCount span{
+	font-size:13px;
+	font-weight:bold;
+}
+.uvForumVotesRemaining{display:none !important;}
+.uvForumCreateIdeaLegend{
+	font-size:20px;
+	font-weight:normal;
+	color:#ccc;
+	padding:0 0 15px;
+}
+.uvIdeaDescription{color:#ccc;}
+.uvList-ideas .uvIdeaDescription{font-size:14px;}
+.uvIdeaHeader{padding:0;}
+.uvIdeaTitle{font-size:16px;}
+.uvIdeaMeta a{color:#f60 !important;}
+.uvStyle-button{
+	font-size:14px;
+	color:#333;
+	text-shadow:0 1px 0 #fff;
+	box-shadow: 0 0 6px 0 #333 inset;
+	padding:0;
+}
+.uvStyle-button:active, .uvStyle-button.selected, .uvStyle-button-selected, .uvStyle-button.selected:focus, .uvStyle-button-selected:hover{
+	background:#ccc;
+	border:1px solid #000;
+	color:#333;
+	text-shadow:0 1px 0 #fff;
+	box-shadow: 0 0 6px 0 #333 inset;
+}
+.uvField{
+	padding:3px;
+	background:#999;
+}
+.uvField-idea{
+	font-style:italic;
+	color:#666;
+}
+.uvFieldPlaceholder, .uvField-focus .uvFieldPlaceholder{color:#666;}
+.uvFieldPlaceholder{margin:3px 0 0 6px;}
+.uvForumCreateIdea{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #282a2d;
+	border-bottom:1px solid #626569;
+	background:#323539;
+	padding:18px;
+	margin:0 0 30px
+}
+.uvModule{
+	background:none;
+	border:none;
+	box-shadow:none;
+}
+.uvTab{
+	background:none;
+	color:#ccc;
+	font-size:16px;
+	font-weight:bold;
+	height:29px;
+	padding:0 18px;
+	float:left;
+	margin:0 3px 0 0;
+	line-height:29px;
+}
+.uvTab:hover{
+	color:#ccc;
+	background:#111;
+	height:27px;
+	line-height:27px;
+	border:1px solid #000;
+	padding:0 17px;
+	border-bottom-color:#707276;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+}
+
+.uvTab-selected{
+	background-position:0 0;
+	color:#ccc;
+	background:#111;
+	height:27px;
+	line-height:27px;
+	border:1px solid #000;
+	padding:0 17px;
+	border-bottom-color:#707276;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	padding-bottom:0;
+}
+.uvModule-session .vcard a{color:#f60;}
+.uvList-feedback-forums li,
+.uvList-feedback-forums .uvListItem{
+	background:none;
+	padding:0 0 5px;
+	margin:0 0 5px;
+	width:100%;
+	overflow:hidden;
+}
+.uvList-feedback-forums li h4{float:left;}
+.uvList-feedback-forums li .uvListItemFooter{
+	float:right;
+	color:#ccc;
+	padding:0 0 0 5px;
+}
+.uvCustomPrimary-color, .ugc{color:#ccc;}
+.uvStyle-button{
+	padding:0 10px;
+	background:#ccc;
+}
+.uvStyle-button:hover, .uvStyle-button:focus{
+	background:#ccc;
+	color:#333;
+	text-shadow:0 1px 0 #fff;
+	box-shadow: 0 0 6px 0 #333 inset;
+}
+.uvUserSettingsFieldsetLegend{color:#ccc;}
+.uvMasthead{border:none;}
+.uvIdeaVoteFormToggle{background:#323539;}
+.uvTabs{
+	margin:0 0 20px;
+	padding:0 0 15px;
+	border-bottom:1px solid #5b5d61;
+}
+.uvModuleSectionHeader{
+	font-size:16px;
+	color:#ccc;
+	border-bottom:1px solid #5b5d61;
+	padding:0 0 10px;
+}
+.uvModule-custom-links{display:none;}
+.uvList-feedback-forums li{
+	border-top:1px solid #5b5d61;
+	margin:0;
+	padding:5px 0;
+}
+.uvList-feedback-forums li:first-child{border:none;}
+header.uvModuleHeader{display:none;}
+.uvStyle-signin{
+	color:#ccc;
+	font-size:13px;
+}
+.uvStyle-signin a{
+	font-weight:normal;
+}

@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<css>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1279551931</css_updated>
+    <css_group>calendar_select</css_group>
+    <css_content/>
+    <css_position>1</css_position>
+    <css_app>core</css_app>
+    <css_app_hide>0</css_app_hide>
+    <css_attributes><![CDATA[title="Main" media="screen"]]></css_attributes>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_user_added>0</css_user_added>
+    <css_user_edited>0</css_user_edited>
+    <css_master_key>mobile</css_master_key>
+  </cssfile>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1279551931</css_updated>
+    <css_group>ipb_bbcode</css_group>
+    <css_content>/***************************************************************/
+/* IP.Board 3 CSS                                              */
+/* ___________________________________________________________ */
+/* By Rikki Tissier                                            */
+/* (c)2008 Invision Power Services                             */
+/***************************************************************/
+/* ipb_bbcode.css - BBCode CSS								   */
+/***************************************************************/
+
+/* 	NOTE: This CSS file styles bbcodes throughout IPB. It is
+	recommended that you DO NOT change these styles if you are
+	creating a skin since it may interfere with user expectation
+	of what certain BBCodes look like. */
+	
+strong.bbc				{	font-weight: bold !important; }
+em.bbc 					{	font-style: italic !important; }
+span.bbc_underline 		{ 	text-decoration: underline !important; }
+div.bbc_center 			{	text-align: center; }
+div.bbc_left 			{	text-align: left; }
+div.bbc_right 			{	text-align: right; }
+div.bbc_indent 			{	margin-left: 50px; }
+del.bbc 				{	text-decoration: line-through !important; }
+ul.bbc 					{	list-style: disc outside; margin-left: 30px; }
+	ul.bbc ul.bbc 			{	list-style-type: circle; }
+		ul.bbc ul.bbc ul.bbc 	{	list-style-type: square; }
+ol.bbc 					{ list-style: decimal outside; margin-left: 30px; }
+	ol.bbc ol.bbc 			{	list-style-type: lower-roman; }
+hr.bbc 					{ 	display: block; border-top: 2px solid #777; }
+div.bbc_spoiler 		{	 }
+div.bbc_spoiler span	{ 	font-weight: bold; }
+div.bbc_spoiler_wrapper	{ 	border: 1px inset #777; padding: 4px; }
+div.bbc_spoiler_content	{ 	 }
+input.bbc_spoiler_show	{ 	width: 45px; font-size: .7em; margin: 0px; padding: 0px; }</css_content>
+    <css_position>1</css_position>
+    <css_app>core</css_app>
+    <css_app_hide>0</css_app_hide>
+    <css_attributes><![CDATA[title="Main" media="screen"]]></css_attributes>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_user_added>0</css_user_added>
+    <css_user_edited>0</css_user_edited>
+    <css_master_key>mobile</css_master_key>
+  </cssfile>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1279551931</css_updated>
+    <css_group>ipb_editor</css_group>
+    <css_content/>
+    <css_position>1</css_position>
+    <css_app>core</css_app>
+    <css_app_hide>0</css_app_hide>
+    <css_attributes><![CDATA[title="Main" media="screen"]]></css_attributes>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_user_added>0</css_user_added>
+    <css_user_edited>0</css_user_edited>
+    <css_master_key>mobile</css_master_key>
+  </cssfile>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1279551931</css_updated>
+    <css_group>ipb_ie</css_group>
+    <css_content>#search {
+	position: absolute !important;
+	right: 0px !important;
+	float: none !important;
+	display: block !important;
+	width: 250px;
+}
+
+	#search label,
+	#search input {
+		float: left !important;
+	}
+	
+	#search .submit_input {
+		font-size: 1em;
+	}
+	
+	#search label {
+		margin: 4px 6px;
+	}
+
+#ipboard_body .input_submit {
+	padding: 2px 5px;
+	font-size: 90%;
+}
+
+#ipboard_body .tab_bar li.active {
+	margin-top: -5px;
+}
+
+#ipboard_body .popupWrapper {
+	padding-top: 6px;
+}
+
+#ipboard_body .ipb_palette {
+	min-width: 130px;
+	max-width: 255px;
+}
+
+#ipboard_body #conversation .post_block {
+	position: static !important;
+	clear: both !important;
+}
+
+#ipboard_body #conversation ul.post_controls {
+	padding-bottom: 0;
+	height: 32px;
+}
+
+/*#ipboard_body .user_controls li img {
+	margin: 4px 0;
+}
+
+#ipboard_body .user_controls li {
+	margin: 0 4px 0 0;
+	text-align: center;
+}*/</css_content>
+    <css_position>0</css_position>
+    <css_app>core</css_app>
+    <css_app_hide>0</css_app_hide>
+    <css_attributes/>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_user_added>0</css_user_added>
+    <css_user_edited>0</css_user_edited>
+    <css_master_key>mobile</css_master_key>
+  </cssfile>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1279551931</css_updated>
+    <css_group>ipb_print</css_group>
+    <css_content><![CDATA[* {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+html #content {
+	font-size: 10pt;
+}
+
+#admin_bar,
+#header,
+#footer_utilities,
+#utility_links,
+.post_mod,
+.author_info,
+.rep_bar,
+.post_controls,
+.top,
+#content_jump,
+.topic_buttons,
+.topic_options,
+h1,
+.post_id,
+h3 img,
+.ip,
+hr,
+.moderation_bar,
+.topic_jump,
+.topic_share,
+#fast_reply,
+#reputation_filter,
+.statistics {
+	display: none;
+}
+
+#breadcrumb {
+	display: block !important;
+}
+	#breadcrumb li {
+		float: left;
+	}
+
+.post_block {
+	margin-bottom: 25pt;
+	border-top: 2pt solid gray;
+	line-height: 60%; 
+	padding-top: 10px;
+}
+
+.posted_info {
+	color: gray !important;
+	font-size: 8pt !important;
+	text-decoration: none !important;
+	border-bottom: 1pt solid lightgray;
+	padding-bottom: 3px;
+}
+
+.post_block h3 {
+	display: inline !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.post_block h3 a {
+	color: black !important;
+	text-decoration: none !important;
+	font-style: normal !important;
+}
+
+	.post_block .post_body a:after {
+	    content: " (" attr(href) ") ";
+	}
+
+.post_body {
+	margin-left: 10pt;
+	line-height: 100%;
+	margin-top: 15pt;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+
+#copyright {
+	text-align: center;
+	color: gray;
+	font-size: 9pt;
+}]]></css_content>
+    <css_position>1</css_position>
+    <css_app>core</css_app>
+    <css_app_hide>0</css_app_hide>
+    <css_attributes><![CDATA[media="print"]]></css_attributes>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_user_added>0</css_user_added>
+    <css_user_edited>0</css_user_edited>
+    <css_master_key>mobile</css_master_key>
+  </cssfile>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1279551931</css_updated>
+    <css_group>ipb_reset</css_group>
+    <css_content><![CDATA[/***************************************************************/
+/* IP.Board 3 CSS                                              */
+/* ___________________________________________________________ */
+/* By Rikki Tissier                                            */
+/* (c)2008 Invision Power Services                             */
+/***************************************************************/
+/* ipb_reset.css (YUI reset)								   */
+/***************************************************************/
+
+/*-----------------------------------------------*/
+/* This file resets default browser styles.   */
+/* You shouldn't need to edit this section.      */
+/*-----------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } 
+table {	border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%;	font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+hr { display: none; }
+address{ display: inline; }]]></css_content>
+    <css_position>0</css_position>
+    <css_app>core</css_app>
+    <css_app_hide>0</css_app_hide>
+    <css_attributes><![CDATA[title="Main" media="screen"]]></css_attributes>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_user_added>0</css_user_added>
+    <css_user_edited>0</css_user_edited>
+    <css_master_key>mobile</css_master_key>
+  </cssfile>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1279551931</css_updated>
+    <css_group>ipb_styles</css_group>
+    <css_content><![CDATA[/************************************************************************/
+/* IP.Board 3 Mobile CSS - By Rikki Tissier - (c)2008 Invision Power Services	*/
+/************************************************************************/
+/* ipb_styles.css														*/
+/************************************************************************/
+/*
+	[ color ]
+	[ font ]
+	[ borders ]
+	[ padding ]
+	[ margin ]
+	[ sizing ]
+	[ other ]
+*/
+
+/************************************************************************/
+/* RESET (Thanks to YUI) */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } 
+table {	border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%;	font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+hr { display: none; }
+address{ display: inline; }
+
+/************************************************************************/
+/* ELEMENT STYLES */
+
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+	-webkit-text-size-adjust:none !important;
+}
+
+body {
+	background: #e4ebf2;
+	color: #192b40;
+	font: normal 12px arial, verdana, tahoma, sans-serif;
+	position: relative;
+}
+
+
+h3, h4, h5, h6, strong { font-weight: bold; }
+em { font-style: italic; }
+img, .input_check, .input_radio { vertical-align: middle; }
+legend { display: none; }
+table { width: 100%; }
+td { padding: 3px; }
+
+body a:hover {
+	text-decoration: underline !important;
+}
+
+/* Cancel */
+.cancel {
+	color: #ad2930;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+h1 {
+	background: #1d3652 url({style_images_url}/header_gradient.png) repeat-x;
+}
+	
+	h1 a {
+		color: #fff;
+		font-size: 26px;
+		padding: 6px 10px;
+		text-align: center;
+		display: block;
+		text-decoration: none;
+		text-shadow: #091421 0px -1px 0px;
+	}
+	
+h2 {
+	background: #b6c7db url({style_images_url}/bar_gradient.png) repeat-x bottom;
+	color: #fff;
+	padding: 6px 10px;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: #5a6d83 0px -1px 0px;
+}
+
+	h2 a {
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	h2.secondary {
+		background: #becbdb;
+		color: #1d3652;
+		text-shadow: none;
+		height: 31px;
+	}
+	
+		h2.secondary a {
+			color: #1d3652;
+		}
+		
+		h2.secondary img.photo {
+			/*border-bottom: 2px solid #aaa;*/
+		}
+	
+#search_bar, .master_list .controls, h3 {
+	background: #f6f6f6 url({style_images_url}/search_bar_bg.png) repeat-x top;
+	padding: 6px;
+	text-align: center;
+	border-bottom: 1px solid #b8b8b8;
+	border-top: 1px solid #e0e0e0;
+}
+
+	#search_bar #main_search {
+		width: 60%;
+	}
+	
+	#search_bar .button {
+		width: 21%;
+		margin-left: 2%;
+		font: normal 11px arial, verdana, tahoma, sans-serif;
+	}
+		
+		#search_bar #adv_search {
+			width: 8%;
+			margin-left: 0;
+		}
+
+h3 {
+	text-align: left;
+}
+
+#user_navigation a, #footer a {
+	color: #b5c8dd;
+	text-decoration: none;
+}
+
+	#user_navigation a:hover, #footer a:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+
+#user_navigation, #footer {
+	background: #192b40;
+	color: #bcc2c9;
+	padding: 6px 10px;
+	line-height: 150%;
+	text-align: center;
+}
+
+#secondary_navigation {
+	background: #f6f6f6 url({style_images_url}/search_bar_bg.png) repeat-x top;
+}
+
+#secondary_navigation a {
+	text-decoration: none;
+	padding: 4px 10px;
+	line-height: 150%;
+	font-size: 11px;
+	color: #4f6176;
+	border-bottom: 1px solid #b8b8b8;
+	text-shadow: #fff 0px 1px 0px;
+	display: block;
+}
+
+	#secondary_navigation a:hover {
+		text-decoration: none !important;
+	}
+
+#footer form, #footer fieldset {
+	display: inline;
+}
+
+.desc {
+	color: #a2a2a2;
+	font-size: 90%;
+}
+
+.photo {
+	border: 1px solid #d8e1ea;
+}
+
+.line_spacing {
+	line-height: 150%;
+}
+
+.master_list {
+	
+}
+
+.master_list .row {
+	background: #fff;
+	padding: 10px 10px;
+	border-top: 1px solid #e9edf1;
+	overflow: hidden;
+}
+	
+	.master_list .title {
+		font-size: 13px;
+		font-weight: bold;
+	}
+	
+	.master_list .row.no_messages {
+		color: #a2a2a2;
+		font-style: italic;
+	}
+	
+	.master_list .row a,
+	.master_list .mini_pagination a,
+	.master_list .pagination a {
+		color: #375f8d;
+		text-decoration: none;
+	}
+
+	.master_list .row .icon {
+		float: left;
+		margin-right: 10px;
+		min-width: 25px;
+	}
+
+		.master_list .row .icon img {
+			vertical-align: middle;
+		}
+	
+	.master_list .post {
+		padding: 10px 15px;
+	}
+	
+	.master_list .row_content {
+		margin-left: 35px;
+	}
+	
+	/*	.master_list .avatar {
+			float: left;
+			background: #fff;
+			width: 60px;
+		}
+		
+			.master_list .avatar img {
+				max-width: 60px;
+				max-height: 60px;
+			}*/
+	
+	/*( {
+		background: #f7f7f7;
+		padding: 6px 10px;
+		overflow: hidden;
+	}*/
+	
+	.master_list .topic_reply {
+		margin: 10px;
+		border: 1px solid #b8b8b8;
+		background: #1a2c41;
+	}
+	
+	.master_list .controls {
+		padding: 6px;
+		text-align: left;
+		min-height: 25px;
+	}
+	
+		.master_list .post_controls {
+			background: #f3f3f3;
+			padding: 6px;
+			text-align: right;
+		}
+	
+		.master_list .post_controls a {
+			font-size: 90%;
+			color: #727272;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+	
+	.master_list .pagination {
+		float: right;
+		padding: 4px;
+	}
+	
+	.master_list .topic_prefix {
+		font-size: 75%;
+		color: #a2a2a2;
+		font-weight: bold;
+	}
+	
+	.master_list .subtext {
+		font-size: 80%;
+		font-weight: normal;
+		color: #808080;
+	}
+	
+		.master_list h2 .subtext {
+			color: #1d3652;
+		}
+	
+	.master_list .mini_pagination,
+	.master_list .pagination {
+		font-size: 90%;
+		margin-left: 10px;
+	}
+
+		.master_list .pagination {
+			font-size: 100%;
+		}
+
+		.master_list .mini_pagination a,
+		.master_list .pagination span.page a  {	
+			padding: 1px 4px;
+			border: 1px solid #b8b8b8;
+			background: #f9f9f9;
+			display: inline-block;
+			font-weight: bold;
+		}
+		
+		.master_list .pagination span.page.active {
+			background: #192b41;
+			border: 1px solid #192b41;
+			padding: 1px 4px;
+			color: #fff;
+		}
+		
+		.master_list .pagination span.total {
+			font-style: normal !important;
+			font-size: 90% !important;
+		}
+	
+	.master_list .submit {
+		background: #d5dde5;
+		padding: 12px 10px;
+		font-weight: bold;
+		font-size: 13px;
+	}
+	
+	.master_list .right_info {
+		float: right;
+		padding: 2px 6px;
+		background: #1d3652;
+		color: #fff;
+		font-weight: bold;
+		font-size: 80%;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	
+	.master_list .poll_question {
+		padding-left: 30px;
+	}
+	
+		.master_list .poll_question .title {
+			margin-left: -10px;
+		}
+	
+.button {
+	background: #2e649f url({style_images_url}/button_gradient.png) repeat-x top;
+	border: 1px solid #393e42;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 4px 6px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: #163c68 0px -1px 0px;
+	cursor: pointer;
+}
+	
+	.button:hover {
+		background: #2f65a1 url({style_images_url}/button_gradient_hover.png) repeat-x top;
+		text-decoration: none !important;
+	}
+	
+	.button.delete {
+		background: #8a2020 url({style_images_url}/delete_gradient.png) repeat-x top;
+		text-shadow: #530e1d 0px -1px 0px;
+	}
+	
+		.button.delete:hover {
+			background: #8a2020 url({style_images_url}/delete_gradient_hover.png) repeat-x top;
+		}
+
+span.error {
+	color: #8a2020;
+}
+
+input.error {
+	background: #ffe0e0;
+}
+
+.message {
+	background: #efffe0;
+	padding: 6px 10px;
+/*	border-top: 2px solid #aacd89;
+	border-bottom: 2px solid #aacd89;*/
+}
+
+	.message.error {
+		background: #ffe0e0;
+		/*border-color: #cd8989;*/
+	}
+
+#submit_post {
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Poll */
+.progress_bar {
+	background-color: #fff;
+	border: 1px solid #d5dde5;
+}
+
+	.progress_bar span {
+		background: #243f5c url({style_images_url}/gradient_bg.png) repeat-x left 50%;
+		color: #fff;
+		font-size: 0em;
+		font-weight: bold;
+		text-align: center;
+		text-indent: -2000em; /* Safari fix */
+		height: 10px;
+		display: block;
+		overflow: hidden;
+	}
+
+	.progress_bar.limit span {
+		background: #b82929 url({style_images_url}/progressbar_warning.png) repeat-x center;
+	}
+
+	.progress_bar span span {
+		display: none;
+	}
+
+.progress_bar.topic_poll {
+	border: 1px solid #d5dde5;
+	margin-top: 2px;
+	width: 40%;
+}
+
+
+/************************************************************************/
+/*  BBCODE STYLES */
+/* 	NOTE: These selectors style bbcodes throughout IPB. It is recommended that you DO NOT change these 
+	styles if you are creating a skin since it may interfere with user expectation
+	of what certain BBCodes look like (quote boxes are an exception to this). */
+
+strong.bbc				{	font-weight: bold !important; }
+em.bbc 					{	font-style: italic !important; }
+span.bbc_underline 		{ 	text-decoration: underline !important; }
+acronym.bbc 			{ 	border-bottom: 1px dotted #000; }
+div.bbc_center 			{	text-align: center; }
+div.bbc_left 			{	text-align: left; }
+div.bbc_right 			{	text-align: right; }
+div.bbc_indent 			{	margin-left: 50px; }
+del.bbc 				{	text-decoration: line-through !important; }
+ul.bbc 					{	list-style: disc outside; margin-left: 30px; }
+	ul.bbc ul.bbc 			{	list-style-type: circle; }
+		ul.bbc ul.bbc ul.bbc 	{	list-style-type: square; }
+ul.bbcol.decimal 				{ margin-left: 30px; list-style: decimal outside; }
+	ul.bbcol.lower-alpha		{ margin-left: 30px; list-style: lower-alpha outside; }
+	ul.bbcol.upper-alpha		{ margin-left: 30px; list-style: upper-alpha outside; }
+	ul.bbcol.lower-roman		{ margin-left: 30px; list-style: lower-roman outside; }
+	ul.bbcol.upper-roman		{ margin-left: 30px; list-style: upper-roman outside; }
+hr.bbc 					{ 	display: block; border-top: 2px solid #777; }
+div.bbc_spoiler 		{	 }
+div.bbc_spoiler span	{ 	font-weight: bold; }
+div.bbc_spoiler_wrapper	{ 	border: 1px inset #777; padding: 4px; }
+div.bbc_spoiler_content	{ 	 }
+input.bbc_spoiler_show	{ 	width: 45px; font-size: .7em; margin: 0px; padding: 0px; }
+pre.prettyprint 		{ padding: 5px; background: #f8f8f8; border: 1px solid #c9c9c9; overflow: auto; margin-left: 10px; font-size: 11px; line-height: 140%; }
+.bbc_member, .bbc_url	{	color: inherit; }
+
+img.bbc_img				{ max-width: 80%; }
+
+/* Quote boxes */
+p.citation {
+	color: #000;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 5px 8px 5px 0;
+}
+
+	div.blockquote {
+		background: #f8f8f8;
+		border: 1px solid #d4d4d4;
+		font-size: 0.9em;
+		margin: 0px;
+		margin-top: 0px;
+		padding: 6px;
+	}
+	
+/* Blog specific */
+
+.blog_excerpt {
+	margin: 5px 0;
+	line-height: 130%;
+}]]></css_content>
+    <css_position>1</css_position>
+    <css_app>core</css_app>
+    <css_app_hide>0</css_app_hide>
+    <css_attributes><![CDATA[title="Main" media="screen"]]></css_attributes>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_user_added>0</css_user_added>
+    <css_user_edited>0</css_user_edited>
+    <css_master_key>mobile</css_master_key>
+  </cssfile>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1279551931</css_updated>
+    <css_group>lightbox</css_group>
+    <css_content><![CDATA[#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }]]></css_content>
+    <css_position>1</css_position>
+    <css_app>core</css_app>
+    <css_app_hide>0</css_app_hide>
+    <css_attributes><![CDATA[title="Main" media="screen"]]></css_attributes>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_user_added>0</css_user_added>
+    <css_user_edited>0</css_user_edited>
+    <css_master_key>mobile</css_master_key>
+  </cssfile>
+</css>

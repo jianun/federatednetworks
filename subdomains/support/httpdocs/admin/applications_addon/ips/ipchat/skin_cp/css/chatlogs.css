@@ -1,0 +1,25 @@
+.chat-me {
+	font-style: italic;
+	background-color: #e2f3e2;
+}
+
+.chat-notice {
+	background-color: #FAFAD2;
+}
+
+.chat-moderator {
+	background-color: #f2e4e7;
+}
+
+.chat-private {
+	background-color: #D3D3D3;
+}
+
+.chatlogs {
+	background-color: black;
+}
+
+	.chatlogs tr {
+		width: 100%;
+		border-bottom: 1px solid #000;
+	}

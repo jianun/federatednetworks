@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settingexport>
+  <settinggroup>
+    <setting>
+      <conf_is_title>1</conf_is_title>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_title_title>IP.Chat</conf_title_title>
+      <conf_title_desc>Manage your IP.Chat account</conf_title_desc>
+      <conf_title_tab>IPS Apps</conf_title_tab>
+      <conf_title_app>ipchat</conf_title_app>
+      <conf_title_noshow>0</conf_title_noshow>
+    </setting>
+    <setting>
+      <conf_title>Group Access</conf_title>
+      <conf_description>Select the groups that can access chat</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>multi</conf_type>
+      <conf_key>ipschat_group_access</conf_key>
+      <conf_default/>
+      <conf_extra>#show_groups#</conf_extra>
+      <conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['ipschat_group_access']) )
+	{
+		$_POST['ipschat_group_access'] = implode(",",$_POST['ipschat_group_access']);
+	}
+	else
+	{
+		$_POST['ipschat_group_access'] = "";
+	}
+	
+	$key = 'ipschat_group_access';
+}
+if ( $show == 1 )
+{
+    $key='ipschat_group_access[]';
+}]]></conf_evalphp>
+      <conf_protected>1</conf_protected>
+      <conf_position>2</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Chat Online</conf_title>
+      <conf_description/>
+      <conf_group>59</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ipschat_online</conf_key>
+      <conf_default>1</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>3</conf_position>
+      <conf_start_group>Online/Offline</conf_start_group>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Offline Access</conf_title>
+      <conf_description>Select the groups that can access chat when it is offline</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>multi</conf_type>
+      <conf_key>ipschat_offline_groups</conf_key>
+      <conf_default/>
+      <conf_extra>#show_groups#</conf_extra>
+      <conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['ipschat_offline_groups']) )
+	{
+		$_POST['ipschat_offline_groups'] = implode(",",$_POST['ipschat_offline_groups']);
+	}
+	else
+	{
+		$_POST['ipschat_offline_groups'] = "";
+	}
+	
+	$key = 'ipschat_offline_groups';
+}
+if ( $show == 1 )
+{
+    $key='ipschat_offline_groups[]';
+}]]></conf_evalphp>
+      <conf_protected>1</conf_protected>
+      <conf_position>4</conf_position>
+      <conf_start_group/>
+      <conf_end_group>1</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Offline Message</conf_title>
+      <conf_description/>
+      <conf_group>59</conf_group>
+      <conf_type>editor</conf_type>
+      <conf_key>ipschat_offline_msg</conf_key>
+      <conf_default>The chat system is currently offline.  Please try again later.</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>5</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Enable Chat</conf_title>
+      <conf_description>This can be used to restrict chat access to certain hours of the day.  Enter the hour (0-24) that chat should be enabled. </conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>ipschat_online_start</conf_key>
+      <conf_default/>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>6</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Disable chat</conf_title>
+      <conf_description>This can be used to restrict chat access to certain hours of the day.  Enter the hour (0-24) that chat should be disabled. </conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>ipschat_online_end</conf_key>
+      <conf_default/>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>7</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Moderator Groups</conf_title>
+      <conf_description>Select the groups that should have moderator capabilities</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>multi</conf_type>
+      <conf_key>ipschat_mods</conf_key>
+      <conf_default/>
+      <conf_extra>#show_groups#</conf_extra>
+      <conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['ipschat_mods']) )
+	{
+		$_POST['ipschat_mods'] = implode(",",$_POST['ipschat_mods']);
+	}
+	else
+	{
+		$_POST['ipschat_mods'] = "";
+	}
+	
+	$key = 'ipschat_mods';
+}
+if ( $show == 1 )
+{
+    $key='ipschat_mods[]';
+}]]></conf_evalphp>
+      <conf_protected>1</conf_protected>
+      <conf_position>8</conf_position>
+      <conf_start_group>Moderation</conf_start_group>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Private Chats</conf_title>
+      <conf_description>Selected groups will be allowed to start private chats</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>multi</conf_type>
+      <conf_key>ipschat_private</conf_key>
+      <conf_default/>
+      <conf_extra>#show_groups#</conf_extra>
+      <conf_evalphp><![CDATA[if ( $save == 1)
+{
+	if ( is_array($_POST['ipschat_private']) )
+	{
+		$_POST['ipschat_private'] = implode(",",$_POST['ipschat_private']);
+	}
+	else
+	{
+		$_POST['ipschat_private'] = "";
+	}
+	
+	$key = 'ipschat_private';
+}
+if ( $show == 1 )
+{
+    $key='ipschat_private[]';
+}]]></conf_evalphp>
+      <conf_protected>1</conf_protected>
+      <conf_position>9</conf_position>
+      <conf_start_group>Private chats</conf_start_group>
+      <conf_end_group>1</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Condense Times</conf_title>
+      <conf_description>Round times down to the nearest 5 minute increment</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ipchat_limit_time</conf_key>
+      <conf_default>1</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>10</conf_position>
+      <conf_start_group>Other Settings</conf_start_group>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Maximum number of messages</conf_title>
+      <conf_description>Limits the number of messages in the chat window.  As new messages are received, old ones will be removed.</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>ipchat_max_messages</conf_key>
+      <conf_default>200</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>11</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Format names</conf_title>
+      <conf_description>Apply the group prefix/suffix formatting to names in chat?</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ipschat_format_names</conf_key>
+      <conf_default>1</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>12</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title><![CDATA[Enable &quot;Who&#39;s Chatting?&quot;]]></conf_title>
+      <conf_description>Will show a list of users in the chat room on the board index</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ipschat_whos_chatting</conf_key>
+      <conf_default>1</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>13</conf_position>
+      <conf_start_group><![CDATA[Who&#39;s Chatting]]></conf_start_group>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title><![CDATA[Hide &quot;Who&#39;s Chatting&quot; when no users are chatting]]></conf_title>
+      <conf_description/>
+      <conf_group>59</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ipschat_hide_chatting</conf_key>
+      <conf_default>0</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>14</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Enable Chat Rules</conf_title>
+      <conf_description>Requires users to agree to chat rules before they can access chat</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ipschat_enable_rules</conf_key>
+      <conf_default>0</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>15</conf_position>
+      <conf_start_group>Chat Rules</conf_start_group>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Chat Rules</conf_title>
+      <conf_description/>
+      <conf_group>59</conf_group>
+      <conf_type>editor</conf_type>
+      <conf_key>ipschat_rules</conf_key>
+      <conf_default/>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>16</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Hide tab count when viewing chatroom</conf_title>
+      <conf_description><![CDATA[When you are viewing the chatroom page, the count will be hidden on the tab if 'Yes' is selected.]]></conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ipchat_htc_view</conf_key>
+      <conf_default>0</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>17</conf_position>
+      <conf_start_group>Tab Count</conf_start_group>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Hide tab count when chatroom is empty</conf_title>
+      <conf_description><![CDATA[When there is no one in the chatroom (and count is 0), the count will not be displayed on the tab if set to 'Yes'.]]></conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ipchat_htc_zero</conf_key>
+      <conf_default>1</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>18</conf_position>
+      <conf_start_group/>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Number of days to keep logs</conf_title>
+      <conf_description>Number of days after which chat logs will be pruned.</conf_description>
+      <conf_group>59</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>ipchat_log_prune</conf_key>
+      <conf_default>30</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>19</conf_position>
+      <conf_start_group>Log Management</conf_start_group>
+      <conf_end_group>0</conf_end_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>ipschat</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+  </settinggroup>
+</settingexport>

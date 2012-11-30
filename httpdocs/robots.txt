@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /css/
+Disallow: /downloads/
+Disallow: /images/
+Disallow: /js/
+Disallow: /pdf/
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-includes/
+Disallow: /wp/
+Disallow: /support/
+Disallow: /support/ideas-forum/
+Disallow: /markup/

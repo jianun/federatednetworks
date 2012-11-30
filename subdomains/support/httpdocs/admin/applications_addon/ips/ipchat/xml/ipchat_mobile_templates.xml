@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates application="ipchat" templategroups="a:1:{s:11:&quot;skin_ipchat&quot;;s:8:&quot;contains&quot;;}">
+  <templategroup group="skin_ipchat">
+    <template>
+      <template_group>skin_ipchat</template_group>
+      <template_content/>
+      <template_name>ajaxNewUser</template_name>
+      <template_data>$data=array()</template_data>
+      <template_updated>1276299493</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>mobile</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_ipchat</template_group>
+      <template_content><![CDATA[{$this->lang->words['chatnot_avail_lofixml']}]]></template_content>
+      <template_name>chatRules</template_name>
+      <template_data>$rules</template_data>
+      <template_updated>1276299493</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>mobile</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_ipchat</template_group>
+      <template_content><![CDATA[<script type='text/javascript'>
+//<!#^#|CDATA|
+	ipb.templates['autocomplete_wrap'] = new Template("<ul id='#{id}' class='ipbmenu_content' style='width: 250px;'></ul>");
+	ipb.templates['autocomplete_item'] = new Template("<li id='#{id}'><img src='#{img}' alt='' width='#{img_w}' height='#{img_h}' />&nbsp;&nbsp;#{itemvalue}</li>");
+//|#^#]>
+</script>
+<fieldset class='row1'>
+	<h3 class='maintitle'>{$this->lang->words['mi5_title']}</h3>
+	<table class='ipb_table' summary="{$this->lang->words['ucp_ignored_users']}">
+		<tr class='header'>
+			<th scope='col' width="50%">{$this->lang->words['mi5_name']}</th>
+			<th scope='col' width="30%">{$this->lang->words['mi5_group']}</th>
+			<th scope='col' width="10%">{$this->lang->words['mi5_posts']}</th>
+			<th scope='col' width="10%">&nbsp;</th>
+		</tr>
+		{parse striping="members" classes="row1,row2"}
+		<foreach loop="members:$members as $member">
+			<tr class='{parse striping="members"}'>
+				<td>
+					<img src='{$member['pp_thumb_photo']}' width='{$member['pp_thumb_width']}' height='{$member['pp_thumb_height']}' border='0' />
+					<strong><a href="{parse url="showuser={$member['member_id']}" base="public" seotitle="{$member['members_seo_name']}" template="showuser"}">{$member['members_display_name']}</a></strong>
+					<p>{$this->lang->words['m_joined']} {parse date="$member['joined']" format="joined"}</p>
+				</td>
+				<td>{$member['g_title']}</td>
+				<td>{$member['posts']}</td>
+				<td><a href="{parse url="app=core&amp;module=usercp&amp;tab=ipchat&amp;area=removeIgnoredUser&amp;do=saveIt&amp;id={$member['member_id']}" base="public"}">{$this->lang->words['mi5_remove']}</a></td>
+			</tr>
+		</foreach>
+	</table>
+</fieldset>
+<fieldset class="row2">
+	<h3>{$this->lang->words['mi5_addem']}</h3>
+	<ul>
+		<li class='field'>
+			<label for='newbox_1'>{$this->lang->words['ucp_members_name']}</label>
+			<input type="text" size='40' name="newbox_1" id="newbox_1" value="{$this->request['newbox_1']}" />
+		</li>
+	</ul>
+</fieldset>
+<script type="text/javascript">
+	document.observe("dom:loaded", function(){
+		var url = ipb.vars['base_url'] + 'app=core&module=ajax&section=findnames&do=get-member-names&secure_key=' + ipb.vars['secure_hash'] + '&name=';
+		new ipb.Autocomplete( $('newbox_1'), { multibox: false, url: url, templates: { wrap: ipb.templates['autocomplete_wrap'], item: ipb.templates['autocomplete_item'] } } );
+	});
+</script>]]></template_content>
+      <template_name>ignoredUsersForm</template_name>
+      <template_data>$members</template_data>
+      <template_updated>1276299493</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>mobile</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_ipchat</template_group>
+      <template_content/>
+      <template_name>tabCount</template_name>
+      <template_data>$count</template_data>
+      <template_updated>1276299493</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>mobile</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_ipchat</template_group>
+      <template_content><![CDATA[{$this->lang->words['chatnot_avail_lofixml']}]]></template_content>
+      <template_name>chatRoom</template_name>
+      <template_data>$options=array(), $chatters=array(), $emoticons</template_data>
+      <template_updated>1276299493</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>mobile</template_master_key>
+    </template>
+  </templategroup>
+</templates>

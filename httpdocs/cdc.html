@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Cross-Domain-Communication Frame</title>
+    <!--<script type="text/javascript">
+        // loading cdc frame script
+        (function () { var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true; sc.defer = true; sc.src = '/widget/scripts/embed.js?account=' + account; var _head = document.getElementsByTagName('head')[0]; _head.appendChild(sc); })();
+    </script>-->
+</head>
+<body>
+	<script type='text/javascript'>
+	    window.version = 2;
+	    window.currentHash = "";
+        function intervalHandler()
+	    {
+	        var hash = getHash();
+	        if (hash === window.currentHash) return; // no hash changes
+	        window.currentHash = hash;
+	        window.parent.parent.nanoRep.Widget.incomingCDCMessage(window.currentHash);
+	    }
+        function getHash()
+        {
+            var index = window.location.href.indexOf('#');
+            return (index === -1 ? '' : location.href.substr(index + 1));
+        }
+        intervalHandler();
+        setInterval(intervalHandler, 50);
+	</script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<css>
+  <cssfile>
+    <css_set_id>0</css_set_id>
+    <css_updated>1276299474</css_updated>
+    <css_group>ipchat</css_group>
+    <css_content><![CDATA[#ipschat {
+	overflow: hidden;
+	position: relative;
+	padding: 10px;
+	background: #f9f9f9;
+	border: 1px solid #9f9f9f;
+}
+
+#chat-container {
+	margin-right: 200px;
+}
+
+
+
+#chat-controls {
+	/*position: absolute;*/
+	height: 32px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 6px 10px;
+}
+
+#scrollbar_container {
+	position: relative;
+	/*width: 960px;*/
+} 
+
+#messages-display {
+	overflow: auto;
+	/*width: 945px;*/
+	margin-left: 0px;
+	height: 350px;
+	border: 1px solid #dcdcdc;
+	margin-bottom: 4px;
+	background: #fff;
+}
+
+.messages-list label {
+	width: 100px;
+	display: block;
+	min-width: 100px;
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+	text-align: right;
+}
+
+.messages-list li {
+	/*border-top: 1px solid #D3D3D3;*/
+	border-bottom: 1px solid #e3e3e3;
+	padding: 4px;
+	font-size: 12px;
+	overflow: auto;
+}
+
+.messages-list div {
+	padding-left: 5px;
+	margin-left: 103px;
+	border-left: 1px solid #D3D3D3;
+}
+
+/*#chat-container, #chat-online {
+	float: left;
+}*/
+
+#chat-submit {
+	vertical-align: top;
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+
+#chat-form {
+	border: 1px solid #d5dde5;
+	border-bottom-width: 4px;
+	padding: 4px;
+	background: #eef3f8;
+	position: relative;
+}
+
+#ipboard_body #editor_message {
+	margin: 0px;	
+	margin-right: 150px;
+	border: 0;	
+}
+
+	#ipboard_body #editor_message textarea {
+		height: 40px;
+		width: 99.7%;
+		resize: none; /* disables the grip on safari */
+		outline: 0; /* disables the 'halo' */
+	}
+
+	#ipboard_body #editor_message .toolbar {
+		padding: 0;
+	}
+	
+#chat-submit {
+	height: 45px;
+	padding: 0 15px;
+	float: right;
+}
+
+.chat-me {
+	font-style: italic;
+	background-color: #e2f3e2;
+}
+
+.messages-list li.chat-time {
+	font-size: 11px;
+	font-weight: bold;
+	color: #4f4f4f;
+}
+
+.messages-list li.chat-system {
+	font-weight: bold;
+	color: #fff;
+	background: #913535;
+	padding: 6px 20px;
+}
+
+.chat-message {
+	
+}
+
+.chat-myown {
+	background-color: #F0FFFF;
+}
+
+.chat-notice {
+	background-color: #FAFAD2;
+}
+
+.chat-moderator {
+	background-color: #f2e4e7;
+}
+
+ul.kickmenu {
+	background: #d5dde5;
+	border: 1px solid #1d3652;
+	margin-top: 0px;
+	width: 170px;		
+	float: right;
+	z-index: 10000;
+}
+
+	ul.kickmenu li {
+		padding: 1px;
+		float: none;
+	}
+
+	ul.kickmenu a {
+		color: #1d3652;
+		text-decoration: none;
+		padding: 4px 4px 4px 4px;
+		display: block;
+		font-size: 11px;
+	}
+
+		ul.kickmenu a:hover {
+			background: #528f6c;
+			color: #fff;
+		}
+
+#chatters-online-wrap {
+	overflow: auto;
+	height: 370px;
+	min-height: 370px;
+	bottom: 30px;
+}
+
+#chatters-online {
+	list-style: none;
+	padding: 5px;
+}
+
+	#chatters-online li {
+		padding-bottom: 3px;
+		padding-top: 3px;
+		border-bottom: 1px solid #f6f6f6;
+		height: 30px;
+		
+	}
+
+/*	#chatters-online .photo {
+		float: left;
+	}
+	
+		#chatters-online .names {
+			margin-left: 34px;
+		}*/
+
+#chat-online {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 185px;
+	background: #fff;
+}
+	#chat-online h3 {
+		margin: 0;
+	}
+	
+#initial_message {
+	display: block;
+	padding: 15px;
+	color: #5e5e5e;
+	font-style: italic;
+}
+
+/* Kill the loading bar at the top */
+
+#ipboard_body #ajax_loading {
+	display: none;
+}
+
+#emoticons_custom_menu_menucontent {
+	border: 1px solid #1d3652;
+	height: 400px;
+	width: 200px;
+	overflow: auto;
+}
+
+.chat-photo {
+	width: 30px;
+	max-width: 30px;
+	min-width: 30px;
+	height: 30px;
+	min-height: 30px;
+	max-height: 30px;
+	display: inline-block;
+	text-align: center;
+}
+
+#iframeContainer {
+	left: 5000px;
+	display: none;
+}
+
+/* Navigation */
+#chat-tab-bar {
+	background: #192b40 url({style_images_url}/primarynav_bg.png) no-repeat;
+	font-size: 0.95em;
+	border-bottom: 5px solid #528f6c;
+	padding-left: 10px;
+	height: 31px;	
+}
+
+	#chat-tab-bar ul li, #chat-tab-bar ul li a {
+		color: #9bb2c8;
+		text-decoration: none;
+	}
+	
+	#chat-tab-bar ul li {
+		font-size: 0.95em;
+		padding: 8px 8px;
+		margin-left: 6px;
+	}
+	
+		#chat-tab-bar ul li.active {
+			background: transparent url({style_images_url}/tab_left.png) no-repeat top left;
+			font-size: 1.05em;
+			font-weight: bold;
+			padding: 0;			
+			margin: -4px 0px auto 5px;
+			position: relative;		
+		}
+		
+		#chat-tab-bar ul li.active a {
+			background: transparent url({style_images_url}/tab_right.png) no-repeat top right;
+			padding: 10px 15px 10px 10px;
+			margin-left: 6px;
+			display: block;
+			color: #FFF;
+		}
+		
+	#chat-tab-bar ul li a {
+		color: #9bb2c8;
+		text-decoration: none;
+	}
+	
+.chat-private-message {
+	background-color: #eef3f8;
+	border: 1px solid #d5dde5;
+	padding: 4px;
+}
+
+	.chat-private-message textarea {
+		height: 45px;
+		width: 300px;
+	}
+	
+	.chat-private-message input {
+		float: right;
+		height: 48px;
+		padding: 0 15px;
+	}]]></css_content>
+    <css_position>1</css_position>
+    <css_app>ipchat</css_app>
+    <css_app_hide>1</css_app_hide>
+    <css_attributes><![CDATA[title="Main" media="screen"]]></css_attributes>
+    <css_removed>0</css_removed>
+    <css_modules/>
+    <css_master_key>root</css_master_key>
+  </cssfile>
+</css>

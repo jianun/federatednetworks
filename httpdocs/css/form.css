@@ -1,0 +1,35 @@
+.customStyleSelectBox {
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	width:225px;
+	background:url(../images/sidebar_select.png) no-repeat;
+}
+
+/* on the next line we add a down arrow on the right to indicate that it is a select box */
+.customStyleSelectBoxInner {
+	height: 25px;
+	line-height: 25px;
+	padding:0 25px 0 10px;
+	width:200px !important;
+	background:url(../images/sidebar_select_btn.png) no-repeat 100% 0;
+	display:block;
+	white-space:nowrap;
+	font-weight:bold;
+	color:#19191F;
+	font-size:14px;
+	text-shadow:0 1px 0 #fff;
+}
+.inner_text_select{
+	display:block;
+	overflow:hidden;
+	padding: 0 5px 0 0;
+}
+.title_shopping_select .customStyleSelectBox{width:85px;}
+.title_shopping_select .customStyleSelectBoxInner{width:60px !important;}
+.shopping_table table tr td .customStyleSelectBox{width:125px;}
+.shopping_table table tr td .customStyleSelectBoxInner{width:100px !important;}
+.select_os .customStyleSelectBox{width:137px;}
+.select_os .customStyleSelectBoxInner{width:112px !important;}
+.select_device .customStyleSelectBox{width:192px;}
+.select_device .customStyleSelectBoxInner{width:167px !important;}

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Federated Networks</title>
+		<meta name="description" content="FN’s cyber security infrastructure comprehensively protects every endpoint from the most pervasive of networked software’s threat vectors. Beta version available for enterprise." />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="http://cdn.federatednetworks.com/css/all.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="http://cdn.federatednetworks.com/css/print.css" type="text/css" media="print" />
+		<script type="text/javascript" src="http://cdn.federatednetworks.com/js/combine.js"></script>
+		<script type="text/javascript" src="http://cdn.federatednetworks.com/js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="http://cdn.federatednetworks.com/js/ui.core.js"></script>
+		<script type="text/javascript" src="http://cdn.federatednetworks.com/js/ui.tabs.js"></script>
+		<script>
+			$(function() {
+				$( "#footer_tabs" ).tabs();
+			});
+		</script>
+	</head>
+	<body class="home">
+<!-- Accessibility options -->
+			<div id="skipNav">
+				<ul title="Accessibility options">
+					<li><a accesskey="W" href="#secure_solution">Skip to World's Most Secure solution</a></li>
+					<li><a accesskey="S" href="#security">Skip to Security</a></li>
+					<li><a accesskey="U" href="#usability">Skip to Usability</a></li>
+					<li><a accesskey="A" href="#affordability">Skip to Affordability</a></li>
+					<li><a accesskey="N" href="#nav">Skip to Navigation</a></li>
+				</ul>
+			</div>
+<!-- Header -->
+		<div id="header">
+			<div class="main">
+	<!-- Logo -->
+				<strong class="logo"><a href="index.html">Federatednetworks</a></strong>
+				<div class="top_box">
+		<!-- Main menu -->
+					<div id="nav" class="main_menu">
+						<ul>
+							<li><a class="learn_item" href="learn/why-fn/overview.html">LEARN</a></li>
+							<li><a class="products_item" href="products/products.html">PRODUCTS</a></li>
+							<li><a class="support_item fancy-link" href="#sorry">SUPPORT</a></li>
+							<li><a class="blog_item" href="/blog/">Blog</a></li>
+							<li><a class="company_item" href="company/news.html">COMPANY</a></li>
+						</ul>
+					</div>
+		<!-- Lang -->
+					<div class="lang">
+						<ul>
+							<li class="active"><a title="English" class="en fancy-link" href="#sorry">English</a></li>
+							<li><a title="Français" class="fr" href="#">Français</a></li>
+							<li><a title="Español" class="es" href="#">Español</a></li>
+							<li><a title="Deutsch" class="dk" href="#">Deutsch</a></li>
+							<li><a title="Italiano" class="it" href="#">Italiano</a></li>
+							<li><a title="Português" class="pt" href="#">Português</a></li>
+							<li><a title="Nederlands"  class="nl" href="#">Nederlands</a></li>
+							<li><a title="中文"  class="cn" href="#">中文</a></li>
+							<li><a title="日本語" class="jp" href="#">日本語</a></li>
+							<li><a title="한국어" class="kr" href="#">한국어</a></li>
+							<li><a title="Русский" class="ru" href="#">Русский</a></li>
+						</ul>
+					</div>
+		<!-- Login -->
+					<a class="login fancy-link" href="#sorry">Login</a>
+				</div>
+			</div>
+		</div>
+<!-- Secure solution -->
+		<div id="secure_solution">
+			<div class="main">
+				<div class="secure_solution_box">
+					<h1>Uncompromising Security </h1>
+					<p>Heavy Duty Security.<br />Lightweight Price.<br />Remarkably Easy To Use.</p>
+					<a href="#sorry" class="btn_gray fancy-link">WATCH THE INTRO VIDEO</a>
+				</div>
+				<div class="secure_solution_download">
+					<a href="/company/contact.php?mode=signup">JOIN OUR PRIVATE BETA</a>
+				</div>
+			</div>
+		</div>
+<!-- Security -->
+		<div id="security">
+			<div class="main">
+				<div class="security_content">
+					<h2>Heavy Duty Security</h2>
+					<h3><a class="fancy-link" href="#sorry">The most secure software on the planet. Period.</a></h3>
+					<p>A bold statement and we’re prepared to back it up. FN is the only security solution that can actually stop all of the hacks you’ve been reading about in the paper every day, like identity theft via spyware and phishing, credit card theft and a whole lot more.  See what a leading <a href="company/press.html">ethical hacking firm had to say</a> about FN’s uncompromising security or watch the videos below and see for yourself.</p>
+				</div>
+				<div class="security_sidebar">
+					<p>See how FN stacks up vs. the rest of the industry.</p>
+					<a class="more fancy-link" href="#sorry">Compare</a>
+				</div>
+				<div class="atack_demos_block">
+					<h3>FEATURED ATTACK DEMOS</h3>
+					<ul>
+						<li>
+							<div class="demos_bg">
+								<a class="fancy-link" href="#sorry"><img alt="" src="images/dev/play.gif" /></a>
+							</div>
+							<h4>Ten Nasty Threats</h4>
+							<p>Now stoppable by one and only one solution. Care to guess which one?</p>
+						</li>
+						<li>
+							<div class="demos_bg">
+								<a class="fancy-link" href="#sorry"><img alt="" src="images/dev/play.gif" /></a>
+							</div>
+							<h4>Password Unsafe's</h4>
+							<p>See for yourself the difference between saying you do something and actually doing it.</p>
+						</li>
+						<li>
+							<div class="demos_bg">
+								<a class="fancy-link" href="#sorry"><img alt="" src="images/dev/play.gif" /></a>
+							</div>
+							<h4>Communication's Breakdown</h4>
+							<p>Discover why FN is the only solution that takes your privacy as seriously as you do.</p>
+						</li>
+						<li>
+							<div class="demos_bg">
+								<a class="fancy-link" href="#sorry"><img alt="" src="images/dev/play.gif" /></a>
+							</div>
+							<h4>OWASP Top 10 -- Solved!</h4>
+							<p>Finally a "set it and forget it" way to neutralize server side code vulnerabilities.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+<!-- Usability -->
+		<div id="usability">
+			<div class="main">
+				<div class="usability_content">
+					<h2>Usability</h2>
+					<h3><a class="fancy-link" href="#sorry">FN works with all the apps you love.</a></h3>
+					<p>Nobody likes change and with FN the good news is you don’t have to. FN plays well with others. Just continue to use all of your favorite apps, but now securely and privately. No muss, no fuss. Like invisible body armor for your data and content, FN’s BitMaille&trade; technology works quietly in the background while you confidently go about your daily life.</p>
+				</div>
+				<div class="usability_safe">
+					<div class="safe_column">
+						<div class="safe_box sm_box">
+							<a class="safe_btn">Email</a>
+							<ul>
+								<li><a>Outlook</a></li>
+								<li><a>Hotmail</a></li>
+							</ul>
+							<ul>
+								<li><a>Gmail</a></li>
+								<li><a>Yahoo</a></li>
+								<li><a>AOL</a></li>
+							</ul>
+							<ul>
+								<li><a>Top 10 N.A. ISP’s</a></li>
+							</ul>
+						</div>
+						<div class="safe_box">
+							<a class="safe_btn">Social Networks</a>
+							<ul>
+								<li><a>Facebook</a></li>
+								<li><a>MySpace</a></li>
+								<li><a>NING</a></li>
+							</ul>
+							<ul>
+								<li><a>Linkedin</a></li>
+								<li><a>XING</a></li>
+							</ul>
+						</div>
+						<div class="safe_box big_box">
+							<a class="safe_btn">Office</a>
+							<ul>
+								<li><a>Google Docs</a></li>
+								<li><a>Basecamp</a></li>
+							</ul>
+							<ul>
+								<li><a>Zoho</a></li>
+								<li><a>Salesforce</a></li>
+								<li><a>Netsuite</a></li>
+							</ul>
+							<ul>
+								<li><a>Scribd</a></li>
+								<li><a>Slideshare</a></li>
+							</ul>
+						</div>
+						<div class="safe_box">
+							<a class="safe_btn">Blogging</a>
+							<ul>
+								<li><a>Wordpress</a></li>
+								<li><a>Blogger</a></li>
+							</ul>
+							<ul>
+								<li><a>Tumblr</a></li>
+								<li><a>Blogspot</a></li>
+								<li><a>TypePad</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="safe_column">
+						<div class="safe_box sm_box">
+							<a class="safe_btn">IM</a>
+							<ul>
+								<li><a>MSFT</a></li>
+								<li><a>Google</a></li>
+								<li><a>Yahoo</a></li>
+							</ul>
+							<ul>
+								<li><a>AOL</a></li>
+								<li><a>SKYPE</a></li>
+								<li><a>Meebo</a></li>
+							</ul>
+							<ul>
+								<li><a>eBuddy</a></li>
+								<li><a>Pidgin</a></li>
+								<li><a>Chatter</a></li>
+							</ul>
+							<ul>
+								<li><a>Yammer</a></li>
+								<li><a>Miranda</a></li>
+							</ul>
+						</div>
+						<div class="safe_box">
+							<a class="safe_btn">Pictures</a>
+							<ul>
+								<li><a>Photobucket</a></li>
+								<li><a>Flicr</a></li>
+								<li><a>Twitpick</a></li>
+							</ul>
+							<ul>
+								<li><a>Shutterfly</a></li>
+								<li><a>SmugMug</a></li>
+							</ul>
+						</div>
+						<div class="safe_box big_box">
+							<a class="safe_btn">File Sharing / Back-up</a>
+							<ul>
+								<li><a>Box</a></li>
+								<li><a>Dropbox</a></li>
+								<li><a>Skydrive</a></li>
+							</ul>
+							<ul>
+								<li><a>Mozy</a></li>
+								<li><a>Carbonite</a></li>
+								<li><a>4share</a></li>
+							</ul>
+							<ul>
+								<li><a>Rapidshare</a></li>
+								<li><a>iMesh</a></li>
+								<li><a>YouSendIt</a></li>
+							</ul>
+							<ul>
+								<li><a>Mediafire</a></li>
+								<li><a>Megaupload</a></li>
+							</ul>
+							<ul>
+								<li><a>Imageshack</a></li>
+							</ul>
+						</div>
+						<div class="safe_box">
+							<a class="safe_btn">Dating</a>
+							<ul>
+								<li><a>eHarmony</a></li>
+								<li><a>Match.com</a></li>
+							</ul>
+							<ul>
+								<li><a>Plentyoffish</a></li>
+								<li><a>Ashley Madison</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- Affordability -->
+		<div id="affordability">
+			<div class="main">
+				<h2>Lightweight Price</h2>
+				<h3><a class="fancy-link" href="#sorry">A price that will make you smile.</a></h3>
+				<p>Free protection of all your valuable data such as passwords and credit card numbers, as well as secure private social networking and communication via email and IM. Need more? Upgrade to FN’s bundled suite of security and privacy solutions. <a class="fancy-link" href="#sorry">Compare to be amazed.</a> Now that’s not just budget friendly, that’s radically affordable security you simply can’t afford to live without.</p>
+			</div>
+		</div>
+<!-- Footer -->
+		<div id="footer">
+			<div class="main">
+				<div id="footer_tabs">
+		<!-- Top footer -->
+					<ul class="footer_menu">
+							<li><a href="#f_press">Press</a></li>
+							<li><a href="#f_news">News</a></li>
+						<!-- <li><a href="#f_site_map">Site Map</a></li>
+						<li><a href="#f_blog">Blog</a></li> -->
+					</ul>
+					<div class="top_footer">
+						<div class="follow">
+							<h4>FOLLOW US</h4>
+							<ul>
+								<li><a class="twitter" href="http://twitter.com/fednetworks">Twitter</a></li>
+								<li><a class="youtube" href="http://www.youtube.com/user/FederatedNetworks">Youtube</a></li>
+								<li><a class="facebook" href="http://www.facebook.com/pages/Federated-Networks/114541465271437">Facebook</a></li>
+								<li><a class="linked_in" href="http://ca.linkedin.com/company/federated-networks?trk=ppro_cprof">linked in</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="f_press" class="f_tab footer_news f_press_label">
+						<h3>Press</h3>
+						<ul>
+							<li>
+								<strong>Feb 3, 2011</strong>
+								<span>Bt ethical hacking center testing confirms FN's extemded end-2-end reverse sandboxing technology stops all common desktop end-user computer attaks</span>
+								<a href="company/press/bt-ethical-hacking-center-tecting-confirms-fns-extended-end-2-end-reverse-sanboxing-technology-stops-all-common-desctop-end-user-computer-attacks.html">More</a>
+							</li>
+							<li>
+								<strong>Dec 8, 2010</strong>
+								<span>Owasp top 10 web application threats eliminated by FN connect secure web application gateway, bt ethical hacking center testing shows</span>
+								<a href="company/press/owasp-top-10web-application-threats-eliminated-by-fn-connect-secure-web-application-gateway-bt-ethical-hacking-center-tecting-shows.html">More</a>
+							</li>
+							<li>
+								<strong>Nov 18, 2010</strong>
+								<span>Bt ethical hacking center validates significant security advances of Federated Networks' asl protocol</span>
+								<a href="company/press/bt-ethical-hacing-center-validates-significant-security-advances-of-federated-networks-asl-protocol.html">More</a>
+							</li>
+						</ul>
+					</div>
+					<div id="f_news" class="f_tab footer_news">
+						<h3>News</h3>
+						<ul>
+							<li>
+								<strong>Jan 6, 2011</strong>
+								<span>Plucky David aims a rock at cybersecurity Goliaths</span>
+								<a href="company/news/plucky-david-aims-a-rock-at-cybersecurity-goliaths.html">More</a>
+							</li>
+							<li>
+								<strong>Dec 17, 2010</strong>
+								<span>The Latest Security Developments. End-To-End Protection &amp; Cloud Security Are Among The Trends That Are Picking Up Steam</span>
+								<a href="company/news/the-latest-security-developments.html">More</a>
+							</li>
+							<li>
+								<strong>Nov 23, 2010</strong>
+								<span>Security Startup Federated Networks Gets Validation on its ASL Protocol</span>
+								<a href="company/news/security-startup-federated-networks-gets-validation-on-its-asl-protocol.html">More</a>
+							</li>
+						</ul>
+					</div>
+					<div id="f_site_map" class="f_tab footer_news ui-tabs-hide">
+						<h3>Site Map</h3>
+						<ul>
+							<li>
+								<strong>Dec. 8, 2010</strong>
+								<span>BT Ethical Hacking Center confirms FN's technology stops all common desktop end-user computer attacks.</span>
+								<a  class="fancy-link" href="#sorry">More</a>
+							</li>
+							<li>
+								<strong>Dec. 8, 2010</strong>
+								<span>BT Ethical Hacking Center confirms FN technology eliminates OWASP top 10 web application threats...</span>
+								<a class="fancy-link" href="#sorry">More</a>
+							</li>
+							<li>
+								<strong>Dec. 8, 2010</strong>
+								<span>BT Ethical Hacking Center confirms FN technology eliminates OWASP top 10 web application threats...</span>
+								<a class="fancy-link" href="#sorry">More</a>
+							</li>
+						</ul>
+					</div>
+					<div id="f_blog" class="f_tab footer_news ui-tabs-hide">
+						<h3>Blog</h3>
+						<ul>
+							<li>
+								<strong>Dec. 8, 2010</strong>
+								<span>BT Ethical Hacking Center confirms FN's technology stops all common desktop end-user computer attacks.</span>
+								<a  class="fancy-link" href="#sorry">More</a>
+							</li>
+							<li>
+								<strong>Dec. 8, 2010</strong>
+								<span>BT Ethical Hacking Center confirms FN technology eliminates OWASP top 10 web application threats...</span>
+								<a class="fancy-link" href="#sorry">More</a>
+							</li>
+							<li>
+								<strong>Dec. 8, 2010</strong>
+								<span>BT Ethical Hacking Center confirms FN technology eliminates OWASP top 10 web application threats...</span>
+								<a class="fancy-link" href="#sorry">More</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+	<!-- Sub footer -->
+				<div class="sub_footer">
+					<!-- <ul>
+						<li><a class="fancy-link" href="#sorry">Terms</a></li>
+						<li><a class="fancy-link" href="#sorry">Privacy</a></li>
+					</ul> -->
+					<p>Copyright 2009. Federated Networks. All rights reserved</p>
+				</div>
+			</div>
+		</div>
+<!-- Fancy -->
+		<div class="fancy-none">
+			<div id="sorry">
+				<div class="fn-form-fancy">
+					<h3>This feature will be available summer 2011.</h3>
+					<p>For more information please <a href="../../company/contact.php">Contact Us.</a></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

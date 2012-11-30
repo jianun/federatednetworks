@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hooks>
+	<hook>
+		<file>board_whos_chatting.xml</file>
+		<enabled>1</enabled>
+	</hook>
+	<hook>
+		<file>chat_tab_count.xml</file>
+		<enabled>1</enabled>
+	</hook>
+</hooks>

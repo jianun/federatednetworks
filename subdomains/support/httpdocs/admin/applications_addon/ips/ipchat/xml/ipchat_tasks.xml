@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export>
+  <group>
+    <row>
+      <task_id>49</task_id>
+      <task_title>Log Pruning</task_title>
+      <task_file>prune.php</task_file>
+      <task_next_run>1272434400</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>6</task_hour>
+      <task_minute>0</task_minute>
+      <task_cronkey>d2b8996a18822a3ad7c9c514076f43a9</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Prunes chat logs older than configured period</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>ipchatprune</task_key>
+      <task_safemode>0</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>ipchat</task_application>
+    </row>
+    <row>
+      <task_id>50</task_id>
+      <task_title>Log Updating</task_title>
+      <task_file>refresh.php</task_file>
+      <task_next_run>1272405300</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>-1</task_hour>
+      <task_minute>30</task_minute>
+      <task_cronkey>70cd4aec1c55892b1d0cd03a7a14b3c0</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Updates local chat logs from chat server</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>ipchatrefresh</task_key>
+      <task_safemode>0</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>ipchat</task_application>
+    </row>
+  </group>
+</export>

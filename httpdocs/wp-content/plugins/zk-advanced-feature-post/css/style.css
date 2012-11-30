@@ -1,0 +1,58 @@
+.zkafp_on, .zkafp_off, .zkafp_loading {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.zkafp_on {
+    background: url(../img/stars.png) no-repeat 0 0;
+}
+
+.zkafp_off {
+    background: url(../img/stars.png) no-repeat -16px 0;
+}
+
+.zkafp_loading {
+    background: url(../img/loading.gif) no-repeat 0 0;
+}
+
+td.loading .zkafp_on, td.loading .zkafp_off {
+    display: none;
+}
+
+td.loading .zkafp_loading {
+    display: inline;
+}
+
+ul.zk-afp {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+ul.zk-afp li {
+	list-style: none; 
+}
+
+ul.zk-afp img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 0 5px 5px 0 !important;
+}
+
+ul.zk-afp li.thumb-only {
+	float: left;
+}
+
+ul.zk-afp li.exceprt {
+	margin: 0 0 5px;
+	clear: both;
+}
+
+ul.zk-afp li.exceprt p {
+	margin: 0;
+}
+
+ul.zk-afp li.exceprt .readmore {
+	text-align: right;
+}
